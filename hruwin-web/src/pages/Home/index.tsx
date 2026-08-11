@@ -4,7 +4,7 @@ import CompanyStory from "../../components/sections/CompanyStory";
 import Ecosystem from "../../components/sections/Ecosystem";
 import Vision from "../../components/sections/Vision";
 import CommunityCTA from "../../components/sections/CommunityCTA";
-
+import AboutCTA from "../../components/sections/AboutCTA";
 function Home() {
   return (
     <div className="w-full">
@@ -14,6 +14,7 @@ function Home() {
       <Ecosystem />
       <Vision />
       <CommunityCTA />
+      <AboutCTA />
     </div>
   );
 }
